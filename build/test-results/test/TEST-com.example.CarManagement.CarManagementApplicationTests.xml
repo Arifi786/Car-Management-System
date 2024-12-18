@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.CarManagement.CarManagementApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-18T17:18:33" hostname="Mohammads-MacBook-Air.local" time="0.25">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.CarManagement.CarManagementApplicationTests" time="0.25"/>
+  <system-out><![CDATA[22:48:25.694 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.CarManagement.CarManagementApplicationTests]: CarManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:48:25.748 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.CarManagement.CarManagementApplication for test class com.example.CarManagement.CarManagementApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.0)
+
+2024-12-18T22:48:25.878+05:30  INFO 48271 --- [CarManagement] [    Test worker] c.e.C.CarManagementApplicationTests      : Starting CarManagementApplicationTests using Java 17.0.9 with PID 48271 (started by arif in /Users/arif/Downloads/CarManagement)
+2024-12-18T22:48:25.879+05:30  INFO 48271 --- [CarManagement] [    Test worker] c.e.C.CarManagementApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-18T22:48:26.138+05:30  INFO 48271 --- [CarManagement] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-18T22:48:26.155+05:30  INFO 48271 --- [CarManagement] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2024-12-18T22:48:26.297+05:30  INFO 48271 --- [CarManagement] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-18T22:48:26.313+05:30  INFO 48271 --- [CarManagement] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-18T22:48:26.326+05:30  INFO 48271 --- [CarManagement] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-18T22:48:26.417+05:30  INFO 48271 --- [CarManagement] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-18T22:48:26.429+05:30  INFO 48271 --- [CarManagement] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-18T22:48:31.761+05:30  INFO 48271 --- [CarManagement] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d59933
+2024-12-18T22:48:31.765+05:30  INFO 48271 --- [CarManagement] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-18T22:48:32.364+05:30  INFO 48271 --- [CarManagement] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-18T22:48:32.657+05:30  INFO 48271 --- [CarManagement] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-18T22:48:33.135+05:30  INFO 48271 --- [CarManagement] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-18T22:48:33.315+05:30  WARN 48271 --- [CarManagement] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T22:48:33.485+05:30  INFO 48271 --- [CarManagement] [    Test worker] c.e.C.CarManagementApplicationTests      : Started CarManagementApplicationTests in 7.686 seconds (process running for 8.109)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
